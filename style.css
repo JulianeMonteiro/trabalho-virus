@@ -136,3 +136,112 @@ p {
   text-align: center;
   line-height: 0;
 }
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  img {
+    padding-right: 90px;
+    border-radius: 50%;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 899px) {
+  img {
+    padding-right: 90px;
+    padding-top: 30px;
+    border-radius: 50%;
+    width: 250px;
+  }
+
+  .aids,
+  .sifilis,
+  .colera,
+  .variola {
+    display: block;
+    padding: 0 30px 30px 30px;
+    margin-left: 100px;
+    width: 75%;
+  }
+
+  p {
+    padding: 20px 10px 10px 0;
+    text-align: justify;
+    line-height: 26px;
+  }
+
+  .rodape p {
+    line-height: 20px;
+    padding-left: 100px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 539) {
+  img {
+    padding-right: 90px;
+    padding-top: 30px;
+    border-radius: 50%;
+    width: 250px;
+  }
+
+  .aids,
+  .sifilis,
+  .colera,
+  .variola {
+    display: block;
+    padding: 0 30px 30px 30px;
+    margin-left: 150px;
+    width: 75%;
+  }
+
+  p {
+    padding: 20px 10px 10px 0;
+    text-align: justify;
+    line-height: 26px;
+  }
+
+  .rodape p {
+    line-height: 20px;
+    padding-left: 100px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+  img {
+    padding-right: 90px;
+    padding-top: 30px;
+    border-radius: 50%;
+    width: 250px;
+  }
+
+  .aids,
+  .sifilis,
+  .colera,
+  .variola {
+    display: block;
+    padding: 0 30px 30px 30px;
+    margin-left: 100px;
+  }
+
+  p {
+    padding: 20px 10px 10px 0;
+    text-align: justify;
+    line-height: 26px;
+  }
+
+  .rodape p {
+    line-height: 20px;
+    padding-left: 100px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
